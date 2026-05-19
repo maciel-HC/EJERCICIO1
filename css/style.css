@@ -1,0 +1,160 @@
+
+/* //////////////////////////
+            CSS
+///////////////////////// */
+
+/* RESETEO DE VALORES */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* VALORES GENERALES */
+body{
+    color: rgb(29, 26, 26);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* ---------------------------
+        TITULOS
+--------------------------- */
+.titulo{
+    /* CONSTRUIR LA CAJA     */
+    background-color:#008080;    
+    width: 80%;
+    height: 30px;
+
+    /* ALINEACION DE LA CAJA */
+    margin: 0px auto;
+    padding: 20px;
+
+    /* CONTENIDO DE LA CAJA */
+    text-align:center;
+    color: azure;
+}
+
+/* ---------------------------
+        CONTENIDO
+--------------------------- */
+.contenido{
+    /* CONSTRUIR LA CAJA     */
+    background-color:rgb(248, 248, 242);    
+    width: 80%;
+    height: 100%;
+
+    /* ALINEACION DE LA CAJA */
+    margin: 0px auto;
+    padding: 20px;
+
+    /* CONTENIDO DE LA CAJA */
+    text-align: center;
+    color: rgb(9, 10, 10);
+}
+
+/* CAJA DE SECCION */
+.seccion{
+    /* background-color: rgb(135, 156, 224); */
+    width: 80%;
+    /* height: 300px; */
+    margin: 20px auto;
+    padding: 10px;
+    text-align: justify;
+}
+
+/* CAJA TITULO DE LA SECCIÓN */
+.tituloSeccion{
+    /* background-color: rgb(86, 131, 116); */
+    color: #008080;
+}
+
+/* CAJA CONTENIDO DE LA SECCION */
+.contenidoSeccion{
+    /* background-color: aquamarine; */
+    padding-left: 30%;
+    /* color: rgb(56, 207, 61);     */
+}
+
+/* CAJA PARA LA IMAGEN DE SECCION */
+.imgSeccion{
+    /* background-color: rgb(45, 97, 80); */
+    text-align: center;
+}
+
+/* IMAGEN DE LA SECCIÓN */
+img{
+    /* background-color: aquamarine; */
+    width: 300px;
+    height: 300px;
+}
+
+/* CAJA CONTENIDO DE LA SECCION SIN PADING */
+.contenidoSeccion2{
+    padding-left: 0;
+    line-height: 2.5;
+}
+
+/* ETIQUETAS DE PARRAFO */
+#parrafo1{
+    text-align: left;
+}
+#parrafo2{
+    text-align: center;
+}
+#parrafo3{
+    text-align: right;
+    /* font-size: 30px;
+    color: blueviolet; */
+}
+#parrafo4{
+    text-align: justify;
+}
+
+/* ETIQUETAS DE TIPO IMAGEN */
+.imgRedonda{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+/* ETIQUETAS DE TIPO EMBEBIDO */
+iframe{
+    width: 80%;
+    height: 300px;
+}
+
+table{
+    border: 2px solid #008080;    
+}
+/* td{
+    border: 2px solid #2a7676;    
+} */
+
+td{
+    background-color: aqua;
+    border: 2px solid #092b2b; 
+    padding: 5px;  
+    width: 100px;
+}
+
+
+/* ---------------------------
+        PIE
+--------------------------- */
+.pie{
+    /* CONSTRUIR LA CAJA     */
+    background-color:rgb(12, 12, 1);    
+    width: 80%;
+    height: 30px;
+
+    /* ALINEACION DE LA CAJA */
+    margin: 0px auto;
+    padding: 20px;
+
+    /* CONTENIDO DE LA CAJA */
+    text-align: center;
+    color: azure;
+
+}
